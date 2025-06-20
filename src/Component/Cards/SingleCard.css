@@ -1,0 +1,21 @@
+.card1{
+    height: 50vh;
+    box-shadow: 0px 2px 7px 4px rgb(204, 204, 204);
+    padding-left: 0 !important;
+}
+.card1 .cardImg{
+    width: 40%;
+    height: 100%;
+}
+.card1 img{
+    border-top-left-radius: 4px;
+}
+.card1 img{
+    border-bottom-left-radius: 4px;
+}
+@media (min-width: 992px) {
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 48%;
+    }
+}

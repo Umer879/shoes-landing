@@ -1,0 +1,21 @@
+/* Mobile screen: left & right margin */
+@media (max-width: 576px) {
+  .choose-card {
+    margin: 0 4px;
+  }
+}
+/* Tablet screen: gap between 2 upper cards and centering */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row > .col-md-6 {
+    display: flex;
+    justify-content: center;
+  }
+  .choose-card {
+    width: 100%;
+    max-width: 95%;
+  }
+  .row > .col-md-6:nth-child(1),
+  .row > .col-md-6:nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
